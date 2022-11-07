@@ -3,13 +3,21 @@ Library java sederhana yang saya buat untuk melakukan request HTTP v1. Library i
 
 # Struktur
 Class HTTPConnect()
+
 |
+
 +---- public String get(String url)
+
 |
+
 +---- public String post(String url, String data)
+
 |
+
 +---- public InputStream getInputStream(String url)
+
 |
+
 +---- public InputStream postInputStream(String url, String data)
 
 # method get(String url)
