@@ -86,7 +86,7 @@ public class HTTPConnect {
             HttpURLConnection huc = (HttpURLConnection) new URL(url).openConnection();
             huc.setDoInput(true);
             huc.setDoOutput(true);
-            huc.setRequestMethod("GET");
+            huc.setRequestMethod("POST");
             huc.setRequestProperty("User-Agent", useragent);
             
             OutputStreamWriter osw = new OutputStreamWriter(huc.getOutputStream());
